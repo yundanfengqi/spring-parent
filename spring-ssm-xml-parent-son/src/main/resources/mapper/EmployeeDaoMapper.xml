@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ll.demo.dao.EmployeeDao">
+    <select id="getPageHelper" resultType="com.ll.demo.entity.EmployeeEntity">
+        select id, username, salary, hiredate,gender
+        from employee
+        order by id
+    </select>
+
+    <insert id="add" >
+
+        insert into employee(username,salary,hiredate,gender)
+        values(#{username},#{salary},#{hiredate}),#{gender}
+    </insert>
+
+    <delete id="deleteByDeptId">
+        delete from employee where deptid = #{deptid}
+    </delete>
+</mapper>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- InternalResourceViewResolver； 内置资源视图分解器 -->
+    <!-- suffix: 后缀 -->
+    <!-- prefix: 前缀 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="suffix" value=".jsp"></property>
+        <property name="prefix" value="WEB-INF/jsp/"></property>
+    </bean>
+
+
+        <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+            <property name="mappings">
+                <value>
+                    /first.htm = firstController
+                    /second = secondController
+                </value>
+            </property>
+        </bean>
+
+            <bean id="firstController" class="com.com.controller.FirstController"></bean>
+
+            <bean id="secomdController" class="com.com.controller.SecondController"></bean>
+
+    <!--SimpleUrlHandlerMapping 和 SimpleControllerHandlerAdapter 这两个类 + DispatcherServlet 的 doDispatch 方法是研究 spring mvc的好切入点   -->
+</beans>

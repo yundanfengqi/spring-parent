@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/maven-spring-mvc-homework/maven-spring-mvc-homework-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-code-noxml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-file" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-handler" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-helloworld" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-interceptors-file" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-jackson" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-processflow" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-receive-homework" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-receive-validation-homework" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-recelve-data" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-requestmapping" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-ssm-code" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-static" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-validation" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-view" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-view-good" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-servlet-3" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-ssm-xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-ssm-xml-mulit-module-core/employee-demo-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-ssm-xml-parent-son" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/maven-spring-mvc-homework/spring-mvc-interceptors-file/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-json/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

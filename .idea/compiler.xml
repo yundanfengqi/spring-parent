@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mvc-view-good" />
+        <module name="spring-mvc-processflow" />
+        <module name="spring-mvc-view" />
+        <module name="spring-mvc-receive-homework" />
+        <module name="employee-demo-entity" />
+        <module name="spring-mvc-requestmapping" />
+        <module name="employee-demo-service" />
+        <module name="spring-mvc-file" />
+        <module name="spring-servlet-3" />
+        <module name="spring-mvc-helloworld" />
+        <module name="spring-mvc-ssm-code" />
+        <module name="maven-spring-mvc-homework-controller" />
+        <module name="spring-mvc-handler" />
+        <module name="spring-mvc-code-noxml" />
+        <module name="spring-mvc-jackson" />
+        <module name="spring-ssm-xml" />
+        <module name="employee-demo-dao" />
+        <module name="employee-demo-controller" />
+        <module name="spring-mvc-static" />
+        <module name="spring-ssm-xml-parent-son" />
+        <module name="spring-mvc-interceptors-file" />
+        <module name="spring-mvc-recelve-data" />
+        <module name="maven-spring-mvc-homework-entity" />
+        <module name="maven-spring-mvc-homework-dao" />
+        <module name="maven-spring-mvc-homework-service" />
+        <module name="spring-mvc-validation" />
+        <module name="spring-mvc-receive-validation-homework" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-mvc-ajax" target="1.8" />
+      <module name="spring-mvc-json" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
